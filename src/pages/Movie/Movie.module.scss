@@ -1,0 +1,150 @@
+.breadcrumb,
+.body_emdbed,
+.body_detail-header,
+.body_detail-content,
+.body_comments {
+    margin-bottom: 3rem;
+}
+
+.breadcrumb_list {
+    display: flex;
+}
+.breadcrumb_list .breadcrumb-item + .breadcrumb-item:before {
+    content: '/';
+    color: #9c9c9c;
+    padding: 0 10px;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 3rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.alert-warning {
+    color: #856614;
+    background-color: #fff3d4;
+    border-color: #ffefc2;
+}
+
+.body_season {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #222;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.season_episodes {
+    margin-left: 16px;
+}
+
+.season_episodes a {
+    margin-left: 16px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.season_episodes a:hover {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+}
+
+.body_detail-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius);
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+}
+
+.detail-actions {
+    display: flex;
+    margin: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.optionShare_wrapper {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    border-radius: var(--border-radius);
+    box-shadow: 0 -4px 32px rgb(0 0 0 / 20%);
+    margin: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    will-change: opacity, transform;
+    li {
+        cursor: pointer;
+        display: flex;
+        font-size: 1.4rem;
+        padding: 12px 10px;
+        transition: 0.3s;
+        align-items: center;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+.icon {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.body_information-title {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.body_information-sub {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.body_detail-btn {
+    text-transform: uppercase;
+    &:hover {
+        background-color: var(--primary-color);
+        border-radius: var(--border-radius);
+    }
+}
+
+.body_information-categories {
+    margin: 16px 0;
+}
+
+.body_description-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.body_description-text {
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+.body_description-content {
+    text-overflow: ellipsis;
+}
+
+.body_comments-warning {
+    border: 1px solid #ffff00;
+    background: #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #ff0000;
+}

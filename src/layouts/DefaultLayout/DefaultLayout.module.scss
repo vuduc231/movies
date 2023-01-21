@@ -1,0 +1,11 @@
+.body_content {
+    max-width: calc(100% - var(--width-sidebar));
+    padding: 20px 28px 0 28px;
+    width: 100%;
+}
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .body_content {
+        max-width: initial;
+    }
+}

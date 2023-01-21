@@ -1,0 +1,58 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .body_content {
+        max-width: initial;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .body_detail-thumb {
+        padding-top: 46.25%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .body_list {
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 16px;
+    }
+
+    .film_information {
+        margin-bottom: 0;
+        margin-right: 16px;
+        width: 70vw;
+    }
+
+    .body_list-hidden {
+        flex-wrap: nowrap;
+    }
+
+    ::-webkit-scrollbar {
+        height: 3px;
+        width: 3px;
+    }
+    .body_text {
+        font-size: 1.8rem;
+    }
+    .body_viewAll {
+        font-size: 1.2rem;
+    }
+    .film_ribbon {
+        font-size: 1.2rem;
+    }
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .left-content {
+        flex: 0 0 100%;
+    }
+
+    .c-12 {
+        flex: 0;
+    }
+}

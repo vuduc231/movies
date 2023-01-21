@@ -1,0 +1,32 @@
+.search_wrapper {
+    border: 1px solid #e8e8e8;
+    border-radius: var(--border-radius);
+    flex: 1 1;
+    height: 40px;
+    padding: 0 16px;
+    transition: 0.2s ease-in-out;
+    width: 420px;
+    position: relative;
+}
+
+.search_wrapper {
+    .icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}
+
+.search_input {
+    border: none;
+    caret-color: #444;
+    flex: 1 1;
+    height: 100%;
+    outline: none;
+    padding: 0 4px;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 26px;
+    color: var(--white-color);
+}

@@ -1,0 +1,18 @@
+.body_slider {
+    border-radius: var(--border-radius);
+}
+
+.body_thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: var(--border-radius);
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 45.25%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
